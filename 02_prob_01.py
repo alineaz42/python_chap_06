@@ -5,9 +5,11 @@ if(a >= 18 and a <= 60):
 else:
     print("No! you can't watch it at", a)
 
-if condition:
-    pass
-elif condition:
-    pass
+
+b = 8
+if b >= 20 and b <= 100:
+    print("Hello")
+elif b <= 19 and b >= 10:
+    print("not hallo")
 else:
-    pass
+    print("faka")
